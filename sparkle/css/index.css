@@ -1,0 +1,634 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header started */
+.mynav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.mynav li{
+    line-height: 20px;
+    float:right;
+    padding: 20px 16px; 
+}
+.mynav a{
+    color:white;
+    text-decoration: none;
+}
+.mynav a:hover{
+    color: rgb(255, 238, 0);
+    transition: .5s ease;
+}
+.mynav a i{
+    font-size: 30px;
+}
+.brand{
+    float:left !important;
+}
+/* header ended */
+
+/* welcome section started */
+
+.welcome-section{
+    background-color: black;
+    height: 670px;
+    text-align: center;
+    border: 1px solid gray;
+    left: 0;
+    right: 0;
+}
+.welcome-section-p{
+    padding-top: 22%;
+}
+.welcome-section-p1{
+    display: inline;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.welcome-section-p2{
+    display: inline;
+    color:white;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.welcome-section button{
+    background-color: rgb(255, 238, 0);
+    padding: 15px 55px;
+    color: black;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+.welcome-section i{
+    margin-top: 176px;
+    font-size: 30px;
+}
+/* welcome section ended */
+/* section-2 started */
+.section-2{
+    background-color: white;
+    height: 500px;
+    text-align: center;
+}
+.section-2 img{
+    margin-top: 100px;
+}
+.section-2-p{
+    width: 450px;
+    height: 200px;
+    margin-left: 450px;
+}
+/* section-2 ended */ 
+
+/* section-3 started */
+.section-3{
+    background-color: rgb(245, 245, 245);
+    height: 800px;
+    text-align: center;
+}
+.section-3 img{
+    width: 90px;
+    height: 60px;
+    margin-top: 70px;
+}
+.section-3-p1{
+    display: inline;
+    color: rgb(27, 27, 27);
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.section-3-p2{
+    width: 800px;
+    margin-left: 150px;
+}
+.section-3-p3{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section-3-col1{
+    display: inline;
+    width: 100px;
+
+}
+.section-3-col1 img{
+    width: 90px;
+    height: 60px;
+}
+.section-3-col1 p{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.col1-p{
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    text-align: center;
+}
+.section-3-col2{
+    display: inline;
+    width: 100px;
+}
+.section-3-col2 p{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.col2-p{
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    text-align: center;
+}
+.section-3-col3{
+    display: inline;
+    width: 100px;
+
+}
+.section-3-col3 p{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.col3-p{
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    text-align: center;
+}
+.section-3-col4{
+    display: inline;
+    width: 100px;
+}
+.section-3-col4 p{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.col4-p{
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    text-align: center;
+}
+.section-3b-1{
+    display: inline;
+    padding: 45px 70px;
+    margin-top: 40px;
+    /* border: .5px solid rgb(105, 102, 102); */
+}
+.section-3b-1 p{
+    margin-right: 250px;
+}
+.section-3b-2{
+    display: inline;
+    padding: 45px 70px;
+    margin-top: 40px;
+    /* border: .5px solid rgb(105, 102, 102); */
+}
+.section-3b-2 p{
+    margin-right: 250px;
+}
+.section-3b-3{
+    display: inline;
+    padding: 45px 70px;
+    margin-top: 40px;
+    /* border: .5px solid rgb(105, 102, 102); */
+}
+.section-3b-3 p{
+    margin-right: 250px;
+}
+.section-3b-4{
+    display: inline;
+    padding: 45px 70px;
+    margin-top: 40px;
+    /* border: .5px solid rgb(105, 102, 102); */
+}
+.section-3b-4 p{
+    margin-right: 250px;
+}
+/* section-3 ended */
+/*  section-4 started */
+.section-4{
+    /* display: inline;     */
+    width: 100%;
+    /* height: 200px; */
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.desing{
+    display: inline;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    margin-left: 350px;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.desing p{
+    display: inline;
+}
+.created{
+    display: inline;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.created p{
+    display: inline;
+}
+.coded{
+    display: inline;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.coded p{
+    display: inline;
+}
+.finished{
+    display: inline;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    margin-left: 40px;
+    /* margi: 100px; */
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.finished p{
+    display: inline;
+}
+/* section-4 ended */
+/* our portfolio started */
+.our-portfolio{
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    text-align: center;
+}
+.our-portfolio img{
+    width: 90px;
+    height: 60px;
+    margin-top: 70px;
+}
+.our-portfolio-p1{
+    display: inline;
+    color: rgb(27, 27, 27);
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.our-portfolio-p2{
+    width: 800px;
+    margin-left: 260px;
+}
+.our-portfolio-p3{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.portfolio-div1{
+    display: inline;
+    width: 400px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+    margin-right: 1000px;
+}
+.portfolio-p1{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+}
+/* img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+} */
+.portfolio-div2{
+    width: 400px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+.portfolio-p2{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+}
+
+/* our portfolio ended */
+/* section5 started */
+.section5{
+    display: inline;
+    width: 100%;
+    height: 300px;
+}
+.section5-div1{
+   display: inline;
+   background-color: rgb(151, 150, 150);
+}
+.section5-div2{
+    display: inline;
+    background-color: black;
+}
+.section5-div3{
+    display: inline;
+    background-color: white;
+}
+.section5-div3 div{
+    display: inline;
+    padding: 10px 70px;
+    background-color: yellow;
+}
+.section5-div3 h2{
+    margin-top: 55px;
+    font-size: 1.5em;
+}
+.section5-div3 p{
+    margin-top:  35px;
+}
+.section5-div4{
+    display: inline;
+    background-color: black;
+}
+.section5-div5{
+    display: inline;
+    background-color: rgb(151, 150, 150);
+}
+.section5-div6{
+    display: inline;
+    background-color: black;
+}
+/* section5 ended */
+/* section6 started */
+.section6{
+    height: 200px;
+    width: 100%;
+}
+.section6 button{
+    background-color: rgb(255, 238, 0);
+    padding: 15px 55px;
+    color: black;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    margin-top: 70px;
+}
+/* section6 ended */
+/* viev our vidio started */
+.view-vidio{
+    /* display: inline; */
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.view-vidio button{
+    background-color: black;
+    padding: 20px 80px;
+    color: rgb(255, 238, 0);
+    margin-top: 20px;
+    border: 1px solid rgb(255, 238, 0);
+    font-size: 20px;
+    margin-top: 110px;
+    letter-spacing: 5px;
+}
+/* view our vidio ended */
+/* Our team started*/
+.our-team{
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    text-align: center;
+}
+.our-team img{
+    width: 90px;
+    height: 60px;
+    margin-top: 70px;
+}
+.our-team-p1{
+    display: inline;
+    color: rgb(27, 27, 27);
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.our-team-p2{
+    width: 800px;
+    margin-left: 300px;
+}
+.our-team-p3{
+    display: inline;
+    color:rgb(27, 27, 27);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.aaaa{
+    margin-top: 230px;
+}
+.team{
+    display: inline;
+    margin-top: 50px;
+}
+.team-div1{
+    display: inline;
+    width: 100px;
+    padding-top: 200px;
+    background-color: black;
+    margin-top: 50px;
+}  
+.team-div1 h2{
+    display: inline;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    margin-top: 200px;
+}
+.team-div2{
+    display: inline;
+    width: 100px;
+    padding-top: 200px;
+    background-color: black;
+}
+.team-div2 h2{
+    display: inline;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    margin-top: 200px;
+}
+.team-div3{
+    display: inline;
+    width: 100px;
+    padding-top: 200px;
+    background-color: black;
+}
+.team-div3 h2{
+    display: inline;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    margin-top: 200px;
+}
+.team-div4{
+    display: inline;
+    width: 100px;
+    padding-top: 200px;
+    background-color: black;
+}
+.team-div4 h2{
+    display: inline;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    margin-top: 200px;  
+}
+/* Our team ended */
+.section6{
+    /* display: inline; */
+    background-color: rgb(255, 238, 0);
+    height: 200px !important;
+    background-attachment: fixed;
+    margin-top: 250px;
+}
+.letter-section{
+    width: 35%;
+    /* margin: 0 auto; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+.letter-section-texts{
+    width: 70%;
+    margin:0 auto;
+    line-height: 25px;
+    font-size: .9em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}   
+.letter-section-2{
+    
+    width: 35%;
+    /* margin: 0 auto; */
+    background-color: black;
+    color: black;
+    text-align: center;
+    margin-bottom: 450px;
+    margin-left: 650px;
+}
+.letter-section-texts-2{
+    width: 70%;
+    margin:0 auto;
+    line-height: 25px;
+    font-size: .9em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.section7-div1{
+    /* display: inline; */
+    background-color: black;
+    /* margin-left: 50px; */
+}
+.section7-div1 p{
+    display: inline;
+    color: white;
+}
+.section7-div1 i{
+    display: inline;
+    color: white;
+}
+.section7-div2{
+    display: inline;
+    background-color: black;
+
+}
+.section7-div2 p{
+    display: inline;
+    color: white;
+
+}
+.section7-div3{
+    display: inline;
+    background-color: black;
+
+}
+.section7-div3 p{
+    display: inline;
+    color: white;
+}
+.section7-div4{
+    display: inline;
+    background-color: black;
+}
+.section7-div4 p{
+    display: inline;
+    color: white;
+}
+.section7-div4 h4{
+    display: inline;
+    color: white;
+}
+.section7-div4 button{
+    background-color: rgb(255, 238, 0);
+    color: black;
+    padding: 6px 70px;
+    border: 1px solid rgb(255, 238, 0);
+    border-radius: 20px;
+}
+.section-8{
+    background-color: black;
+}
+
+
+@media screen and (max-width: 375px ){
+    .welcome-section{
+        margin-left: 100px;
+    }
+}
+
+
+/* .saying{
+    display: inline;
+    margin-bottom: 700px; 
+    width: 350px;
+}
+.saying p{
+    color: black;
+    display: inline;
+    font-size: .7em;
+} */
